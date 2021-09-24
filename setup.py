@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 
 requires = ["numpy", "qutip", "h5py", "sklearn ", "skimage", "tf_explain", 
-           "tensorflow", "tensorflow_addons", "tqdm"]
+           "tensorflow", "tensorflow_addons", "tqdm", "opencv-python"]
 
 packages = find_packages(
     where="qst_nn",
