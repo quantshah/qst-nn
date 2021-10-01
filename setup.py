@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-
-requires = ["numpy", "qutip", "h5py", "sklearn ", "skimage", "tf_explain", 
-           "tensorflow", "tensorflow_addons", "tqdm", "opencv-python"]
-
 packages = find_packages(
     where="qst_nn",
     include=['data', 'training', 'models', 'inference'],
@@ -23,6 +19,5 @@ setup(name='qst_nn',
       author='Shahnawaz Ahmed',
       author_email='shahnawaz.ahmed95@gmail.com',
 	  packages=packages,
-      requires = requires,
       package_dir=package_dir,
      )
